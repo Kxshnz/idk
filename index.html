@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080b16">
+    <title>Kishan K S | Developer Universe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+    <div class="grid-background"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <a href="#home" class="logo">K<span>S</span><i>.</i></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <a href="#projects" class="nav-cta">Explore My Work ↗</a>
+    </nav>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero section" id="home">
+
+            <div class="hero-content">
+
+                <div class="status-pill">
+                    <span class="status-dot"></span>
+                    CURRENTLY LEARNING & BUILDING
+                </div>
+
+                <p class="eyebrow">HELLO, INTERNET. I'M</p>
+
+                <h1>
+                    Kishan <span>K S</span><br>
+                    <span class="hero-outline">Building my future.</span>
+                </h1>
+
+                <p class="hero-description">
+                    BCA student, curious developer, and cloud explorer.
+                    I break things, fix them, learn something new,
+                    and repeat. One project at a time.
+                </p>
+
+                <div class="hero-tags">
+                    <span>#Code</span>
+                    <span>#Cloud</span>
+                    <span>#Create</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button button-primary">
+                        Explore Projects ↗
+                    </a>
+                    <a href="#about" class="button button-secondary">
+                        Get to know me ↓
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <h3>01<span>+</span></h3>
+                        <p>Curiosity level</p>
+                    </div>
+                    <div>
+                        <h3>∞</h3>
+                        <p>Things to learn</p>
+                    </div>
+                    <div>
+                        <h3>24/7</h3>
+                        <p>Ideas running</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- TERMINAL -->
+            <div class="terminal-card">
+
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span>kishan@dev-machine ~</span>
+                    <span class="terminal-icon">⌘</span>
+                </div>
+
+                <div class="terminal-body">
+
+                    <p class="terminal-comment">
+                        // A little about the person behind the screen
+                    </p>
+
+                    <p>
+                        <span class="terminal-prompt">kishan@dev:~$</span>
+                        whoami
+                    </p>
+
+                    <p class="terminal-output">Kishan K S</p>
+
+                    <p>
+                        <span class="terminal-prompt">kishan@dev:~$</span>
+                        cat interests.txt
+                    </p>
+
+                    <p class="terminal-output">
+                        software_development<br>
+                        cloud_computing<br>
+                        photography_and_creativity<br>
+                        learning_by_building
+                    </p>
+
+                    <p>
+                        <span class="terminal-prompt">kishan@dev:~$</span>
+                        <span id="terminalCommand">sudo build-my-future</span>
+                        <span class="cursor">▋</span>
+                    </p>
+
+                    <p class="terminal-success" id="terminalOutput">
+                        [OK] Process running. No finish line found.
+                    </p>
+
+                    <button class="terminal-button" id="terminalButton">
+                        Run another command ↻
+                    </button>
+
+                </div>
+
+                <div class="terminal-footer">
+                    <span>
+                        <span class="status-dot"></span>
+                        SYSTEM ONLINE
+                    </span>
+                    <span id="liveClock">LOCAL TIME</span>
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                SCROLL TO EXPLORE <span>↓</span>
+            </a>
+
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section about-section" id="about">
+
+            <div class="section-heading">
+                <p class="eyebrow">01 / THE HUMAN BEHIND THE CODE</p>
+                <h2>
+                    Not an expert.<br>
+                    <span>A work in progress.</span>
+                </h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-card about-main">
+                    <span class="card-number">01</span>
+                    <h3>Hey, I'm Kishan 👋</h3>
+
+                    <p>
+                        I'm pursuing my Bachelor of Computer Applications
+                        at Amrita School of Arts and Sciences. I'm interested
+                        in understanding how software works, how websites
+                        come alive, and how applications run on the cloud.
+                    </p>
+
+                    <p>
+                        I'm still learning, and that's the point.
+                        Every program, bug, failed deployment, and new idea
+                        is another chance to get better.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <span class="about-icon">☁</span>
+                    <h3>Cloud curious</h3>
+                    <p>
+                        Exploring AWS, Linux, servers, networking,
+                        and what it takes to get an application online.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <span class="about-icon">⌘</span>
+                    <h3>Builder mindset</h3>
+                    <p>
+                        I want to turn ideas into working projects,
+                        not just collect tutorials and bookmarks.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <span class="about-icon">📸</span>
+                    <h3>Creative side</h3>
+                    <p>
+                        Photography, music, and editing keep my
+                        creative side alive beyond the code editor.
+                    </p>
+                </div>
+
+                <div class="about-card about-quote">
+                    <p class="quote-mark">“</p>
+                    <h3>Learn it. Build it. Break it. Fix it.</h3>
+                    <p>Repeat until the impossible feels normal.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section skills-section" id="skills">
+
+            <div class="section-heading">
+                <p class="eyebrow">02 / MY TOOLKIT</p>
+                <h2>Skills in progress<span>.</span></h2>
+                <p class="section-description">
+                    No fake expert badges. Just technologies I'm learning
+                    and practising, one concept at a time.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+
+                <button class="skill-card"
+                    data-skill="C Programming"
+                    data-detail="Practising programming fundamentals, loops, arrays, pointers, and problem-solving.">
+                    <span class="skill-symbol">C</span>
+                    <span class="skill-name">C Programming</span>
+                    <span class="skill-level">FOUNDATIONS</span>
+                </button>
+
+                <button class="skill-card"
+                    data-skill="Python"
+                    data-detail="Learning Python syntax, logic, functions, and writing small programs.">
+                    <span class="skill-symbol">Py</span>
+                    <span class="skill-name">Python</span>
+                    <span class="skill-level">LEARNING</span>
+                </button>
+
+                <button class="skill-card"
+                    data-skill="Java"
+                    data-detail="Exploring object-oriented programming, classes, objects, and core Java concepts.">
+                    <span class="skill-symbol">J</span>
+                    <span class="skill-name">Java / OOP</span>
+                    <span class="skill-level">LEARNING</span>
+                </button>
+
+                <button class="skill-card"
+                    data-skill="HTML & CSS"
+                    data-detail="Building web pages, styling interfaces, and learning responsive layouts.">
+                    <span class="skill-symbol">&lt;/&gt;</span>
+                    <span class="skill-name">HTML & CSS</span>
+                    <span class="skill-level">BUILDING</span>
+                </button>
+
+                <button class="skill-card"
+                    data-skill="DBMS"
+                    data-detail="Studying database concepts, relational models, and SQL fundamentals.">
+                    <span class="skill-symbol">DB</span>
+                    <span class="skill-name">DBMS</span>
+                    <span class="skill-level">LEARNING</span>
+                </button>
+
+                <button class="skill-card"
+                    data-skill="AWS"
+                    data-detail="Getting hands-on with EC2, Linux servers, cloud networking, and hosting websites.">
+                    <span class="skill-symbol">☁</span>
+                    <span class="skill-name">AWS</span>
+                    <span class="skill-level">EXPLORING</span>
+                </button>
+
+                <button class="skill-card"
+                    data-skill="Linux"
+                    data-detail="Practising terminal commands, file management, permissions, and server basics.">
+                    <span class="skill-symbol">$_</span>
+                    <span class="skill-name">Linux</span>
+                    <span class="skill-level">PRACTISING</span>
+                </button>
+
+                <button class="skill-card"
+                    data-skill="Git & GitHub"
+                    data-detail="Learning repository workflows, version control, cloning, and project management.">
+                    <span class="skill-symbol">⑂</span>
+                    <span class="skill-name">Git & GitHub</span>
+                    <span class="skill-level">LEARNING</span>
+                </button>
+
+            </div>
+
+            <div class="skill-detail" id="skillDetail" aria-live="polite">
+                <span class="detail-indicator">↳</span>
+                <p>Click any skill card to see what I'm currently learning.</p>
+            </div>
+
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section projects-section" id="projects">
+
+            <div class="section-heading">
+                <p class="eyebrow">03 / THINGS I'M MAKING</p>
+                <h2>Ideas into reality<span>.</span></h2>
+                <p class="section-description">
+                    A growing collection of experiments, coursework,
+                    and projects that help me learn by doing.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-visual canteen-visual">
+                        <span class="project-emoji">🍽️</span>
+                        <span class="project-label">PLANNING</span>
+                        <div class="visual-decoration">
+                            ORDER / SERVE / REPEAT
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <p class="project-category">APP DEVELOPMENT</p>
+                        <h3>College Canteen System</h3>
+
+                        <p>
+                            Exploring an application to simplify food ordering,
+                            manage orders, and improve the canteen experience
+                            for students and staff.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Database</span>
+                            <span>Cloud ideas</span>
+                        </div>
+
+                        <button class="project-button"
+                                data-project="canteen">
+                            Explore idea <span>↗</span>
+                        </button>
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-visual website-visual">
+                        <span class="project-emoji">⌘</span>
+                        <span class="project-label">IN PROGRESS</span>
+
+                        <div class="mini-browser">
+                            <div class="mini-browser-bar">● ● ●</div>
+                            <div class="mini-browser-line"></div>
+                            <div class="mini-browser-line short"></div>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <p class="project-category">WEB DEVELOPMENT</p>
+                        <h3>Personal Portfolio</h3>
+
+                        <p>
+                            This very website! A personal space to showcase
+                            my skills, document my learning journey, and
+                            practise frontend development.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <button class="project-button"
+                                data-project="portfolio">
+                            Explore project <span>↗</span>
+                        </button>
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-visual cloud-visual">
+                        <span class="project-emoji">☁</span>
+                        <span class="project-label">HANDS-ON LEARNING</span>
+
+                        <div class="server-stack">
+                            <span>SERVER_01</span>
+                            <span>NETWORK_ONLINE</span>
+                            <span>DEPLOYMENT_PENDING</span>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <p class="project-category">CLOUD COMPUTING</p>
+                        <h3>AWS Deployment Lab</h3>
+
+                        <p>
+                            Learning how to transfer files to an EC2 instance,
+                            configure a Linux server, and publish a website
+                            on the internet.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>AWS EC2</span>
+                            <span>Linux</span>
+                            <span>Networking</span>
+                        </div>
+
+                        <button class="project-button"
+                                data-project="aws">
+                            Explore lab <span>↗</span>
+                        </button>
+                    </div>
+
+                </article>
+
+            </div>
+
+            <div class="project-detail" id="projectDetail"
+                 aria-live="polite" hidden>
+                <button class="detail-close" id="closeProject"
+                        aria-label="Close project details">×</button>
+                <p class="eyebrow">PROJECT DETAILS</p>
+                <h3 id="projectDetailTitle">Project</h3>
+                <p id="projectDetailText"></p>
+            </div>
+
+        </section>
+
+        <!-- LEARNING JOURNEY -->
+        <section class="section journey-section">
+
+            <div class="section-heading">
+                <p class="eyebrow">04 / THE JOURNEY</p>
+                <h2>Every expert started somewhere<span>.</span></h2>
+            </div>
+
+            <div class="journey-list">
+
+                <div class="journey-item">
+                    <span class="journey-marker">01</span>
+                    <div>
+                        <h3>Learn the fundamentals</h3>
+                        <p>
+                            Programming, databases, operating systems,
+                            and how computers actually work.
+                        </p>
+                    </div>
+                    <span class="journey-status">ONGOING</span>
+                </div>
+
+                <div class="journey-item">
+                    <span class="journey-marker">02</span>
+                    <div>
+                        <h3>Build real projects</h3>
+                        <p>
+                            Turn ideas into working applications and
+                            put my code where people can see it.
+                        </p>
+                    </div>
+                    <span class="journey-status">IN PROGRESS</span>
+                </div>
+
+                <div class="journey-item">
+                    <span class="journey-marker">03</span>
+                    <div>
+                        <h3>Deploy to the cloud</h3>
+                        <p>
+                            Learn Linux, networking, AWS, and how
+                            websites reach the rest of the world.
+                        </p>
+                    </div>
+                    <span class="journey-status">EXPLORING</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section contact-section" id="contact">
+
+            <p class="eyebrow">05 / YOUR TURN</p>
+
+            <h2>
+                Have an idea?<br>
+                <span>Let's make something.</span>
+            </h2>
+
+            <p class="contact-description">
+                I'm learning, building, and always open to connecting
+                with people who enjoy technology and creating things.
+            </p>
+
+            <div class="contact-buttons">
+                <a href="https://github.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="button button-primary">
+                    GitHub ↗
+                </a>
+
+                <a href="https://www.linkedin.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="button button-secondary">
+                    LinkedIn ↗
+                </a>
+
+                <button class="button button-secondary" id="copyEmail">
+                    Copy Email ⧉
+                </button>
+            </div>
+
+            <p class="contact-feedback" id="contactFeedback"
+               aria-live="polite"></p>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a href="#home" class="logo">K<span>S</span><i>.</i></a>
+        <p>Built with curiosity, caffeine, and a suspicious number of bugs.</p>
+        <p>© <span id="currentYear"></span> Kishan K S</p>
+        <a href="#home" class="back-to-top">BACK TO TOP ↑</a>
+    </footer>
+
+    <!-- JAVASCRIPT INTERACTIONS -->
+    <script>
+        // Update footer year
+        document.getElementById("currentYear").textContent =
+            new Date().getFullYear();
+
+        // Mobile navigation
+        const menuToggle = document.getElementById("menuToggle");
+        const navLinks = document.getElementById("navLinks");
+
+        menuToggle.addEventListener("click", () => {
+            const isOpen = navLinks.classList.toggle("show");
+            menuToggle.setAttribute("aria-expanded", isOpen);
+            menuToggle.textContent = isOpen ? "✕" : "☰";
+        });
+
+        document.querySelectorAll(".nav-link").forEach(link => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("show");
+                menuToggle.setAttribute("aria-expanded", "false");
+                menuToggle.textContent = "☰";
+
+                document.querySelectorAll(".nav-link").forEach(item => {
+                    item.classList.remove("active");
+                });
+
+                link.classList.add("active");
+            });
+        });
+
+        // Live local clock
+        function updateClock() {
+            document.getElementById("liveClock").textContent =
+                new Date().toLocaleTimeString([], {
+                    hour: "2-digit",
+                    minute: "2-digit",
+                    second: "2-digit"
+                });
+        }
+
+        updateClock();
+        setInterval(updateClock, 1000);
+
+        // Interactive terminal
+        const commands = [
+            {
+                command: "sudo build-my-future",
+                output: "[OK] Process running. No finish line found."
+            },
+            {
+                command: "git status",
+                output: "[INFO] Learning branch: main-character-energy"
+            },
+            {
+                command: "aws explore-cloud",
+                output: "[INFO] Curiosity detected. Deploying knowledge..."
+            },
+            {
+                command: "npm run keep-learning",
+                output: "[OK] New ideas found. Sleep mode postponed."
+            }
+        ];
+
+        let commandIndex = 0;
+
+        document.getElementById("terminalButton")
+            .addEventListener("click", () => {
+                commandIndex = (commandIndex + 1) % commands.length;
+
+                document.getElementById("terminalCommand").textContent =
+                    commands[commandIndex].command;
+
+                document.getElementById("terminalOutput").textContent =
+                    commands[commandIndex].output;
+            });
+
+        // Skill card interactions
+        const skillDetail = document.getElementById("skillDetail");
+
+        document.querySelectorAll(".skill-card").forEach(card => {
+            card.addEventListener("click", () => {
+                document.querySelectorAll(".skill-card").forEach(item => {
+                    item.classList.remove("selected");
+                });
+
+                card.classList.add("selected");
+
+                const name = document.createElement("strong");
+                name.textContent = card.dataset.skill + ": ";
+
+                const description = document.createElement("span");
+                description.textContent = card.dataset.detail;
+
+                const paragraph = document.createElement("p");
+                paragraph.append(name, description);
+
+                skillDetail.replaceChildren();
+
+                const arrow = document.createElement("span");
+                arrow.className = "detail-indicator";
+                arrow.textContent = "↳";
+
+                skillDetail.append(arrow, paragraph);
+            });
+        });
+
+        // Project details
+        const projectInfo = {
+            canteen: {
+                title: "College Canteen Management System",
+                text: "The idea is to create a system for managing menus, orders, and order status. Next steps: define the features, design the database, build a prototype, and test it with sample data."
+            },
+            portfolio: {
+                title: "Personal Portfolio Website",
+                text: "This portfolio is built with HTML, CSS, and JavaScript. It demonstrates page structure, responsive design, interactive controls, and a place to document future projects."
+            },
+            aws: {
+                title: "AWS Deployment Lab",
+                text: "The goal is to upload website files to an EC2 Linux instance, configure a web server, allow HTTP traffic safely, and access the site through the instance's public address."
+            }
+        };
+
+        const projectDetail = document.getElementById("projectDetail");
+
+        document.querySelectorAll("[data-project]").forEach(button => {
+            button.addEventListener("click", () => {
+                const project = projectInfo[button.dataset.project];
+
+                document.getElementById("projectDetailTitle").textContent =
+                    project.title;
+
+                document.getElementById("projectDetailText").textContent =
+                    project.text;
+
+                projectDetail.hidden = false;
+                projectDetail.scrollIntoView({
+                    behavior: "smooth",
+                    block: "nearest"
+                });
+            });
+        });
+
+        document.getElementById("closeProject")
+            .addEventListener("click", () => {
+                projectDetail.hidden = true;
+            });
+
+        // Copy email
+        // Replace this placeholder with your real email address.
+        const emailAddress = "your.email@example.com";
+
+        document.getElementById("copyEmail")
+            .addEventListener("click", async () => {
+                const feedback =
+                    document.getElementById("contactFeedback");
+
+                if (emailAddress === "your.email@example.com") {
+                    feedback.textContent =
+                        "Add your real email address in the HTML first!";
+                    return;
+                }
+
+                try {
+                    await navigator.clipboard.writeText(emailAddress);
+                    feedback.textContent = "Email copied! See you in the inbox. ✉";
+                } catch (error) {
+                    feedback.textContent =
+                        "Copy unavailable here. Email: " + emailAddress;
+                }
+            });
+    </script>
+
+</body>
+</html>
